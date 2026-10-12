@@ -43,7 +43,7 @@ services:
       - db
 
   frontend:
-    image: shaikmustafa/arshad:frontend
+    image: satyamechanical197/flm-python:fe
     deploy:
       replicas: 1
     ports:
